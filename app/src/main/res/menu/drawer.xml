@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:toolsNs="http://schemas.android.com/tools"
+      toolsNs:showIn="navigation_view">
+
+
+
+    <!--Block makes sure to only select ONCE - changes stage/window btw
+    FRAGMENT IS OPENED -->
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_firstaid"
+              android:icon="@drawable/ic_firstaid"
+              android:title="First Aid"/>
+
+    </group>
+
+    <!--Action unrelated to opening a stage-->
+    <item android:title="Open Camera">
+        <menu>
+            <item android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_camera"
+            android:title="Camera" />
+        </menu>
+    </item>
+
+</menu>
