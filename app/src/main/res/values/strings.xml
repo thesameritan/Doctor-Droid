@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">DoctorDroid</string>
     <string name="first_aid">First Aid</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="camera">Camera</string>
+    <string name="first_aid">First Aid</string>
 </resources>

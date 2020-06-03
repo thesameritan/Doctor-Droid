@@ -10,16 +10,16 @@
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_firstaid"
               android:icon="@drawable/ic_firstaid"
-              android:title="First Aid"/>
+              android:title="@string/first_aid"/>
 
     </group>
 
     <!--Action unrelated to opening a stage-->
-    <item android:title="Open Camera">
+    <item android:title="@string/open_camera">
         <menu>
             <item android:id="@+id/nav_camera"
             android:icon="@drawable/ic_camera"
-            android:title="Camera" />
+            android:title="@string/camera" />
         </menu>
     </item>
 
